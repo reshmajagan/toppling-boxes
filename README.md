@@ -27,5 +27,3 @@ To use p5.js and matter.js you can do one fo two things:
 
 Both can be found at the official sites of p5.js (https://p5js.org/download/) and matter.js (https://github.com/liabru/matter-js/wiki/Getting-started)
 
-
-## How to install and run the project
