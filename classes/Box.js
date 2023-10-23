@@ -1,6 +1,6 @@
 class Box {
   /** 
-   * x and y:  x & y coordinates denoting the center point of the Box object
+   * x and y:  x & y coordinates denoting the position of the Box object
    * width: width of box
    * height: height of box
    * color: color of the box

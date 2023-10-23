@@ -1,6 +1,6 @@
 class Ground {
     constructor(x,y,width,height) {
-      /** x and y:  x & y coordinates denoting the center point of the Ground object */
+      /** x and y:  x & y coordinates denoting the position of the Ground object */
       var options = {
           /**this makes the ground static */
           isStatic: true            
