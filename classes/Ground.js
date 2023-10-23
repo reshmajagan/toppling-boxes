@@ -3,7 +3,9 @@ class Ground {
       /** x and y:  x & y coordinates denoting the position of the Ground object */
       var options = {
           /**this makes the ground static */
-          isStatic: true            
+          'isStatic': true,
+          'friction': 1,
+          'restitution': 0.5          
       }
       this.body = Bodies.rectangle(x,y,width,height,options); /** this creates a rectangle shaped body */
       this.width = width;

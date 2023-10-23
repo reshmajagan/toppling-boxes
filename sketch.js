@@ -13,7 +13,7 @@ var box1, box2;
  */
 function setup(){
     /**Here we create a canvas of dimensions 1000px x 600px, which will be our viewport */
-    var canvas = createCanvas(1000,600);
+    var canvas = createCanvas(1560,730);
     
     /**A physics engine is being created here using Engine.create() */
     engine = Engine.create();
@@ -22,13 +22,18 @@ function setup(){
     world = engine.world;
 
     /**We are creating 2 box objects from Box class */
-    box1 = new Box(600,0,70,70, "sandybrown");
+    box1 = new Box(650,0,70,70, "sandybrown");
     box2 = new Box(700,100,70,70, "sandybrown");
+
+
     
     /**
      * We are creating 1 ground object from Ground class
      * Here "width" and "height" are pre-existing constants storing the width & height of the canvas */
-    ground = new Ground(width/2,height,width,20)
+    ground = new Ground(width/2,height,width,20);
+
+    // Matter.Body.rotate(box1.body, PI/100);
+
 }
 
 /**
@@ -48,7 +53,6 @@ function draw(){
     // console.log(box2.body.position.y);
     // console.log(box2.body.angle);
     
-    Matter.Body.rotate(box1.body, PI/100);
 
     /**The display function is called each time to redraw the rectangle(or shape) for each new position of the body */
     box1.display();

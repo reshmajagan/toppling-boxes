@@ -2,7 +2,7 @@
 
 The toppling boxes are made using p5.js library and matter.js physics engine. The objective is to get a basic understanding of the libraries and how they could be used.
 
-This project creates 3 bodies using the physics engine - two boxes and one ground. One box falls from the top of the screen onto the second box placed on the ground. They collide and topple over.
+This project creates 3 bodies using the physics engine - two boxes and one ground. Two boxes falls from the top of the screen onto the ground. They collide and topple over.
 
 
 ## Basic project structure

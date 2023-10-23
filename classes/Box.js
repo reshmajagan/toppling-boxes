@@ -9,8 +9,8 @@ class Box {
     
     var options = {
       /**options store the various properties that Box objects should possess */
-        'restitution':0.8,
-        'friction':0.3,
+        'restitution':0.9,
+        'friction':0.5,
         'density':1.0
     }
     this.body = Bodies.rectangle(x, y, width, height, options); /**This created a rectangle shaped body */
